@@ -2,7 +2,7 @@
 local settings = {
    defaultcolor = Color3.fromRGB(255,0,0),
    teamcheck = false,
-   teamcolor = false
+   teamcolor = true
 };
  
 -- services
