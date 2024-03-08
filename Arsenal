@@ -14,19 +14,19 @@ for _,v in pairs(game[players]:GetPlayers()) do
 if v.Name ~= plr.Name and v.Character then
 v.Character.RightUpperLeg.CanCollide = false
 v.Character.RightUpperLeg.Transparency = 1
-v.Character.RightUpperLeg.Size = Vector3.new(4,4,4)
+v.Character.RightUpperLeg.Size = Vector3.new(6,6,6)
  
 v.Character.LeftUpperLeg.CanCollide = false
 v.Character.LeftUpperLeg.Transparency = 1
-v.Character.LeftUpperLeg.Size = Vector3.new(4,4,4)
+v.Character.LeftUpperLeg.Size = Vector3.new(6,6,6)
  
 v.Character.HeadHB.CanCollide = false
 v.Character.HeadHB.Transparency = 1
-v.Character.HeadHB.Size = Vector3.new(2,2,2)
+v.Character.HeadHB.Size = Vector3.new(4,4,4)
  
 v.Character.HumanoidRootPart.CanCollide = false
 v.Character.HumanoidRootPart.Transparency = 1
-v.Character.HumanoidRootPart.Size = Vector3.new(4,4,4)
+v.Character.HumanoidRootPart.Size = Vector3.new(6,6,6)
  
 end
 end
